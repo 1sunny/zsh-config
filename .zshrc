@@ -1,7 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # ------------------------------ MY ------------------------------
-export PATH="/usr/local/llvm-14/bin:$PATH"
-. "$HOME/.cargo/env"
+# add some PATH here ...
 # ------------------------------ MY ------------------------------
 
 # Path to your oh-my-zsh installation.
@@ -73,7 +72,7 @@ ZSH_THEME="my"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
